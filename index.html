@@ -8,9 +8,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-
-    <title>Static Top Navbar Example for Bootstrap</title>
+<link rel="shortcut icon" href="images/faviconhtg.ico" type="image/vnd.microsoft.icon">
+    <title>Home Page</title>
 
     <!-- Bootstrap core CSS -->
 	
@@ -171,7 +170,7 @@
 				client needing additional staff or a candidate searching 
 				for new opportunities.
 				</p>
-				<button type="button" class="btn btn-danger hidden-xs">Learn more</button>
+				<a href="about-us.html"> <button class="btn btn-danger hidden-xs">Learn more</button></a>
 			
               
             </div>
@@ -197,14 +196,14 @@
 								<div class="col-md-4 col-sx-6 col-sm-4">
 									<div class="inner-mater">
 										<h1>90</h1>
-										<p>Conversion for Hires</p>
+										<p>Conversions for Hires</p>
 									</div>
 								
 								</div>
 								<div class="col-md-4 col-sx-6 col-sm-4">
 									<div class="inner-mater">
 										<h1 class=".numbers-with-commas">1,500</h1>
-										<p>Satisficatied Clients</p>
+										<p>Satisfied Clients</p>
 									</div>
 								
 								</div>
@@ -222,24 +221,47 @@
 						<div class="serv-text">
 							<h1>Why HireTech</h1>
 							<p>Do not feel like you need to be an English Professor or A+ student to compose a solid resume. You need to represents your skill set and provide details about your career not write a New York Times bestselling novel!</p>
+																	<a href="why-hiretech.html"><button class="btn btn-danger">Learn More</button></a>
+
 						</div>
 							
 							<div class="col-md-4 col-sm-4">
 								<div class="versatile">
+										<i class="fa fa-users" aria-hidden="true"></i>
+										<h1>Clients</h1>
+										<p>Visit our client area. You will find everything you need to get to know HireTech Group better.</p>
+										<a href="#"><button class="btn btn-danger">Learn More</button></a>
+									</div>
+								<div class="versatile">
 								<i class="fa fa-sliders" aria-hidden="true"></i>
 									<h1>What to Expect</h1>
 									<p>A unique blend of sales and IT recruiting experience that helps us truly understand the technical/business problem and build true partnerships with our customers. </p>
+								<a href="#"><button class="btn btn-danger">Learn More</button></a>
+
 								</div>
 								<div class="versatile">
 								<i class="fa fa-cubes" aria-hidden="true"></i>
 									<h1>Areas of Focus</h1>
 									<p>We assist clients across all vertical business markets from the largest Fortune 500 companies, privately held corporations, major mid market companies as well as start ups supported by Venture Capital and Angel Investors.</p>
+									<a href="#"><button class="btn btn-danger">Learn More</button></a>
 								</div>
-							
+							<div class="versatile">
+								<i class="fa fa-bullseye" aria-hidden="true"></i>
+									<h1>Our Services</h1>
+									<p>We offer a hands on approach that helps clients understand the job market conditions and talent pools within the NorthEast Ohio IT community. We know what skills are the hottest and moving quickest at any given time. We know who is hiring and what they need to find those top notch employees. We offer flexible payment terms, creative invoicing and other billing solutions that won’t get in the way of doing businss at a fair price!</p>
+									<a href="#"><button class="btn btn-danger">Learn More</button></a>
+								</div>
 							</div>
 							
 							
 							<div class="col-md-4 col-sm-4">
+								<div class="picture">
+								<img src="images/mid-pic%20copy.png" class="img-responsive">
+								</div>
+
+								<div class="picture">
+								<img src="images/mid-pic%20copy.png" class="img-responsive">
+								</div>
 								<div class="picture">
 								<img src="images/mid-pic%20copy.png" class="img-responsive">
 								</div>
@@ -249,16 +271,35 @@
 							<div class="col-md-4 col-sm-4">
 							
 									<div class="versatile">
-										<i class="fa fa-cogs" aria-hidden="true"></i>
+										<i class="fa fa-graduation-cap" aria-hidden="true"></i>
 										<h1>Job Seekers</h1>
-										<p>Whether permanent, contract or consulting, we are here to help you connect with our clients.</p>
+										<p>We offer straight forward industry leading advice for ways to land the job and grow your technical career. We are true down to earth professionals that help job seekers see the bright side of IT staffing.</p>
+										<a href="#"><button class="btn btn-danger">Learn More</button></a>
+
 									</div>
-							
+								
+								<div class="versatile">
+										<i class="fa fa-cogs" aria-hidden="true"></i>
+										<h1>Current Openings</h1>
+										<p>Please review our current openings frequently to find a position that best suits your skills and abilities. We recieve new openings on a daily basis so don’t forget to check in with us here at HireTech Group!</p>
+										<a href="#"><button class="btn btn-danger">Learn More</button></a>
+
+									</div>
 									<div class="versatile">
-										<i class="fa fa-history" aria-hidden="true"></i>
-										<h1>Clients</h1>
-										<p>Visit our client area. You will find everything you need to get to know HireTech Group better.</p>
+										<i class="fa fa-file-text" aria-hidden="true"></i>
+										<h1>Submit a Resume</h1>
+										<p>WOur resume submission is quick and easy. Please click on the link and begin. One of our recruiting professionals will contact you to set a time to discuss your skill set and meet in person.</p>
+										<a href="#"><button class="btn btn-danger">Learn More</button></a>
+
 									</div>
+									<div class="versatile">
+										<i class="fa fa-refresh" aria-hidden="true"></i>
+										<h1>Our Process</h1>
+										<p>HireTech Group will never charge a fee to our candidates for any of our staffing services including general resume writing, technical skills assessment or peer to peer training.</p>
+										<a href="#"><button class="btn btn-danger">Learn More</button></a>
+
+									</div>
+								
 							
 							</div>
 						
@@ -565,8 +606,8 @@ Website built to specification with creative input and implementation by Outfast
 <script type="text/javascript">
 	$(document).ready(function() {
 				$('.inner-mater h1').counterUp({
-					delay: 20, // the delay time in ms
-					time: 3000 // the speed time in ms
+					delay: 10, // the delay time in ms
+					time: 2000 // the speed time in ms
 				});
 			});
 </script>
