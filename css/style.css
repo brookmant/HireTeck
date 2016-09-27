@@ -80,7 +80,6 @@ width: 41%;}
 	margin-bottom:0px;
 }
 
-
 .register-login ul li {
     float: left;
     padding: 0px 10px;
@@ -98,7 +97,9 @@ button > a:hover {
 	font-weight: bold;
 	text-decoration: none;
 }
-
+.about-us-picture {
+	background-color: #F7F7F3;
+}
 .register-login ul li a {
     color: #fff;
     list-style: none;
@@ -486,7 +487,7 @@ article {
 .form-control {
     margin: 5px 0px;
     display: block;
-    width: 424px;
+    max-width: 424px;
     height: 50px;
     padding: 14px 12px;
     font-size: 14px;
