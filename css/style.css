@@ -49,9 +49,9 @@
 	font-weight:bold;
 		
 }
-
-
-
+ul, ol {
+    margin-left: 10px;
+}
 
 .fab-icon  {
 	float:right;
@@ -98,7 +98,15 @@ button > a:hover {
 	text-decoration: none;
 }
 .about-us-picture {
-	background-color: #F7F7F3;
+	background-color: #fff;
+  	background-image:
+	    linear-gradient(
+	      to right, 
+	      #eee, 
+	      #fff, 
+	      #fff, 
+	      #eee
+	    );
 }
 .register-login ul li a {
     color: #fff;
