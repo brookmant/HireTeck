@@ -108,6 +108,15 @@ button > a:hover {
 	      #eee
 	    );
 }
+
+.about-us-picture > img {
+	//position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 400px;
+}
 .register-login ul li a {
     color: #fff;
     list-style: none;
@@ -639,7 +648,10 @@ article {
 	text-align:center;
 	padding:10px 0px;
 }
+.medical-heading h3 {
+ text-align:center;
 
+}
 
 .medical-heading p{
 	font-size:14px;
