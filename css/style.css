@@ -5,7 +5,7 @@
 
 
 .wrapper{
-	margin:0 auto;
+	margin:7em auto;
 }
 
 *{font-family: 'Open Sans', sans-serif; margin:0; padding:0;
@@ -31,9 +31,11 @@
 	width: 270px;
 }
 
+
 .top-head{
 	padding-top:5px;
 	background:#222222;
+    margin-bottom: 10px;
 }
 
 
@@ -90,6 +92,7 @@ button > a {
 	color:#fff;
 	font-weight: bold;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 button > a:hover {
@@ -115,14 +118,14 @@ button > a:hover {
   left: 0; 
   min-width: 100%;
   min-height: 100%;
-  max-height: 400px;
+  max-height: 500px;
 }
 .register-login ul li a {
     color: #fff;
     list-style: none;
     text-decoration: none;
 	font-size: 12px;
-	    line-height: 20px;
+	line-height: 20px;
 }
 
 .register-login ul li:first-child{
@@ -135,13 +138,18 @@ button > a:hover {
 
 .navbar-default {
     background-color: #fff;
-    border-color: transparent;
-	padding: 10px 0px 0px 0px;
+	padding: 0px 0px 8px 0px;
+	-webkit-box-shadow: 3px 1px 12px -1px #888;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 1px 12px -1px #888;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 1px 12px -1px #888;
 }
 
 .navbar-default .navbar-nav>li>a {
-    font-size: 16px;
-    color: #333333 !important;
+    font-size: 18px;
+    color: #4e619c !important;
+    text-transform: uppercase; 
+    font-weight: bold;
+    line-height: 13px;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
@@ -249,7 +257,11 @@ button > a:hover {
 .prime-text-box h1{
 	font-size:40px;
 	color:#222222;
-	text-align:center;	
+	text-align:center;
+	text-transform: uppercase;
+	padding-bottom:10px;
+	border-bottom:2px solid #222;	
+	font-weight: bold;
 }
 
 
@@ -265,12 +277,20 @@ button > a:hover {
 	
 	padding: 0px 0px 28px 0px;
 	text-align:center;
-	border:1px solid#eeeeee;
+	//border:1px solid#eeeeee;
 }
 
 .inner-mater h1{
 	font-size:70px;
-	color:#4285f4;
+	color:#4e619c;
+	text-transform: uppercase;
+}
+.inner-mater h2{
+	font-size: 30px;
+    color: #4e619c;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-weight: bold;
 }
 
 .red {
@@ -280,6 +300,7 @@ button > a:hover {
 .inner-mater p{
 	color:#999999;
 	font-size:20px;
+	text-transform: uppercase;
 }
 
 
@@ -311,6 +332,8 @@ button > a:hover {
 
 .picture img{
 	padding-top:176px;
+	margin: 0 auto;
+	padding-bottom: 20px;
 }
 
 
@@ -537,13 +560,13 @@ article {
 
 
 .contact-part {
-	margin-top: 60px;
-    padding: 92px 40px 0px 100px;
+	margin-top: 129px;
+    padding: 22px 40px 0px 65px;
     text-align: left;
-    background: #fff;
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
+    background: rgba(255,255, 255, 0.8);
+    width: 300px;
+    height: 300px;
+    border-radius: 35%;
 
 }
 
@@ -675,7 +698,7 @@ article {
 }
 
 .media{
-	padding:50px 0px;
+	padding:10px 0px 50px 0px;
 }
 
 .media-body h4 {

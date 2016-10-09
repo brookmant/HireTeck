@@ -312,10 +312,7 @@ padding-top: 10px;
 	
 }
 
-
-
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
-	
 	.contact-part{
 		width:100%;
 	}
@@ -324,10 +321,9 @@ padding-top: 10px;
     height: 400px;
     padding: 78px 40px 36px 85px;
     width: 400px;
+    }
 }
-	
-	
-}
+
 
 
 
