@@ -311,6 +311,56 @@ padding-top: 10px;
 	
 	
 }
+@media (min-width: 768px) and (max-width: 1250px) {
+        .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+    }
+    .picture img {
+        width: 200px;
+    }
+    .navbar-brand > img {
+        width: 210px;
+    }
+        .fab-icon {
+        width: 30%;
+    }
+    .register-login {
+        width: 67%;
+        float: left;
+        height: 20px;
+        margin-top: -20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .need-help {
+        display: none;
+    }
+    .fab-icon {
+        width: 30%;
+    }
+    .register-login {
+        width: 67%;
+        float: left;
+        height: 20px;
+        margin-top: -20px;
+        margin-right: 20px;
+    }
+    .picture img {
+        display: none;
+    }
+    .navbar-default .navbar-nav > li > a {
+        line-height: 22px;
+        border-bottom: 1px solid #ccc;
+        text-indent:20px;
+    }
+    .navbar-nav button {
+        width: 100%;
+        margin-top:10px;
+    }
+}
 
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
 	.contact-part{
