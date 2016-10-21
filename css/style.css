@@ -33,6 +33,9 @@
     filter: alpha(opacity=50);
     opacity: .8;
 }
+ul.nav.navbar-nav > button {
+	float:left;
+}
 
 .ht-logo {
 	top: -24px;
