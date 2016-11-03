@@ -140,6 +140,10 @@ button > a:hover {
 	font-size: 12px;
 	line-height: 20px;
 }
+.we-creat-text a {
+	color: blue;
+	text-decoration: underline;
+}
 
 .register-login ul li:first-child{
 	border-right:1px solid#fff;
