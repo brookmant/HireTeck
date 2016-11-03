@@ -158,7 +158,7 @@
                                     </a>
                                 </div>
                                 <div class="versatile">
-                                    <i class="fa fa-refresh animated infinite pulse" aria-hidden="true"></i>
+                                    <i class="fa fa-refresh animated infinite rotator" aria-hidden="true"></i>
                                     <h1>Our Recruiting Process for Job Seekers</h1>
                                     <p>We offer straight forward industry leading advice for ways to land the job and grow your technical career. We are true down to earth professionals that help job seekers see the bright side of IT staffing.</p>
                                     <a href="our-process.html">
@@ -454,7 +454,6 @@
         </script>
         <script src="js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="js/ie10-viewport-bug-workaround.js"></script>
         <script src="js/owl.carousel.js"></script>
         <script src="js/jquery-migrate-1.2.1.min.js"></script>
         <script>
@@ -468,6 +467,22 @@
                 });
             });
         </script>
+            <script type="text/javascript">
+    $(function() {
+       var $elie = $(".rotator");
+       rotate(0);
+       function rotate(degree) {
+
+           // For webkit browsers: e.g. Chrome
+           $elie.css({ WebkitTransform: 'rotate(' + degree + 'deg)'});
+           // For Mozilla browser: e.g. Firefox
+           $elie.css({ '-moz-transform': 'rotate(' + degree + 'deg)'});
+
+           // Animate rotation with a recursive call
+           setTimeout(function() { rotate(++degree); },65);
+       }
+    });
+    </script>
 
 </body>
 

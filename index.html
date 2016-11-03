@@ -11,9 +11,12 @@
     <title>Home Page</title>
 
     <!-- Bootstrap core CSS -->
-    <!--[if !IE]><!-->
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!--[if !IE]>
+
+    <!-->
  <!--<![endif]-->
+     <link rel="stylesheet" type="text/css" href="css/animate.css">
+
     <link rel="stylesheet" href="css/owl.carousel.css" />
 
     <link rel="stylesheet" href="css/owl.theme.css" />
@@ -29,7 +32,6 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="navbar-static-top.css" rel="stylesheet">
@@ -41,7 +43,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link href="css/responsive.css" rel="stylesheet">
 
     <!--favicon icon -->
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon-icon/apple-icon-57x57.png">
@@ -207,7 +208,7 @@
                     </div>
                     <div class="col-md-4 col-sx-6 col-sm-4">
                         <div class="inner-mater">
-                            <h1 class="fa fa-spinner animated infinite rotateIn"></h1>
+                            <h1 class="fa fa-spinner animated infinite rotator"></h1>
                             <h2>Innovated</h2>
                             <p>Working with the latest and greatest technology</p>
                         </div>
@@ -296,7 +297,7 @@
                         </div>
 
                         <div class="versatile">
-                            <i class="fa fa-cogs animated infinite rotateIn" aria-hidden="true"></i>
+                            <i class="fa fa-cogs animated infinite rotator" aria-hidden="true"></i>
                             <h1>Current Openings</h1>
                             <p>Please review our current openings frequently to find a position that best suits your skills and abilities. We recieve new openings on a daily basis so don’t forget to check in with us here at HireTech Group!</p>
                             <a href="jobs.html">
@@ -314,7 +315,7 @@
 
                         </div>
                         <div class="versatile">
-                            <i class="fa fa-refresh animated infinite rotateIn" aria-hidden="true"></i>
+                            <i class="fa fa-refresh animated infinite rotator" aria-hidden="true"></i>
                             <h1>Our Process</h1>
                             <p>HireTech Group will never charge a fee to our candidates for any of our staffing services including general resume writing, technical skills assessment or peer to peer training.</p>
                             <a href="our-process.html">
@@ -552,7 +553,6 @@
     </script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/owl.carousel.js"></script>
 
     <script src="js/jquery-migrate-1.2.1.min.js"></script>
@@ -585,6 +585,23 @@
                 autoPlay: true
             });
         });
+    </script>
+
+    <script type="text/javascript">
+    $(function() {
+       var $elie = $(".rotator");
+       rotate(0);
+       function rotate(degree) {
+
+           // For webkit browsers: e.g. Chrome
+           $elie.css({ WebkitTransform: 'rotate(' + degree + 'deg)'});
+           // For Mozilla browser: e.g. Firefox
+           $elie.css({ '-moz-transform': 'rotate(' + degree + 'deg)'});
+
+           // Animate rotation with a recursive call
+           setTimeout(function() { rotate(++degree); },65);
+       }
+    });
     </script>
 
 </body>
